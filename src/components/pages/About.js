@@ -10,13 +10,12 @@ export default function About() {
                   <Header />
       <div className="content">
         <h2 id="h2">About me</h2>
-        <img className="image" ></img>
+        <img className="image" src={portrait} alt="Amira portrait" width="140"></img>
         <div className="bio">
           <p>I am passionate about strengthening my skills.</p>
           <p>Currently Learing how to code and make websites at UCSD bottcamp!</p>
           <p>I plan to use my coding skills to make amazing digital products that are user-friendly to all.</p>
           <p>I live in the beautiful san Diego, where its always sunny with nice weather, and pretty beaches .</p>
-          <p>If you have any questions Email me!</p>
         </div>
       </div>
       <Footer />
