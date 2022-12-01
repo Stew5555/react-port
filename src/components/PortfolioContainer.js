@@ -4,9 +4,16 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 
 export default function PortfolioContainer() {
-    (
-        <div>
+    const [currentPage, setCurrentPage] = useState('About');
 
-        </div>
-    )
+    const renderPage = () => {
+        if (currentPage === 'About') {
+          return <About />;
+        }
+        if (currentPage === 'Portfolio') {
+          return <Portfolio />;
+        }
+      };
+      const handlePageChange = (page) => setCurrentPage(page);
+
 }
