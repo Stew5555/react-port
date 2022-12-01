@@ -1,0 +1,42 @@
+.image {
+    border: 5px solid #40c9ce5c;
+    border-radius: 3px;
+    opacity: 1;
+    width: 170px;
+  }
+
+  .image :hover {
+    opacity: 0.5;
+  }
+
+  .one-project {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+
+  .title {
+    display: block;
+    text-align: center;
+  }
+
+  .nav {
+    /* background: #13293d; */
+    background: #1d3557;
+    background-color: #1d3557;
+    color: #F1FAEE;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+  }
+
+  .active {
+    background-color: #E8F1F2;
+  }
+
+  #button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 20px 2px;
+  
+  }
