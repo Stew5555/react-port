@@ -25,6 +25,33 @@ export default function portfolio() {
                             gitHubAlt="See quiz repository on GitHub"
                             description="Quiz game made from html and javascript! Test your CS knowledge."
                         />
+                        <Project
+                            key="2"
+                            img={img2}
+                            imgAlt="JATE"
+                            gitHubRepo="https://github.com/Stew5555/PWA-JATE"
+                            gitHubAlt="See JATE repository on GitHub"
+                            description="JUST ANOTHER TEXT EDITOR."
+                        />
+                        <Project
+                            key="3"
+                            img={img3}
+                            imgAlt=" SuperWiki"
+                            project="https://stew5555.github.io/super-hero-wiki"
+                            projectAlt="Search super hero!"
+                            gitHubRepo="https://github.com/Stew5555/super-hero-wiki"
+                            gitHubAlt="See SuperWiki repository on GitHub"
+                            description="Lets you search superHeros on two different apis."
+                        />
+                        <Project
+                            key="4"
+                            img={img4}
+                            project="https://peaceful-sea-97652.herokuapp.com/"
+                            projectAlt="DnD meetups!"
+                            gitHubRepo="https://github.com/nbwong1/airDND"
+                            gitHubAlt="See airDnD repository on GitHub"
+                            description="Lets you create DnD character, and post meet ups."
+                        />
                     </div>
                 </div>
             </div>

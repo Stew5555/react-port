@@ -1,11 +1,11 @@
 .image {
-  border: 5px solid #40c9ce5c;
+  border: 5px solid #ffffff;
   border-radius: 3px;
   opacity: 1;
   width: 170px;
 }
 .hero {
-  background: #1d3557;
+  background: #000000;
   color: #F1FAEE;
   padding: 2px 0 18px;
   border: none;
@@ -23,7 +23,7 @@ h3 {
 }
 
 #root {
-  background-color: #F1FAEE;
+  background-color: #202124;
 }
 
 .image :hover {
@@ -41,7 +41,7 @@ h3 {
   /* modifies wrap on mobile/responsive */
   text-align: left;
   /* font-weight: bold; */
-  color: #457b9d;
+  color: #1d91d8;
   font-size: 40px;
   font-family: Acme;
 }
@@ -52,9 +52,7 @@ h3 {
 }
 
 .nav {
-  /* background: #13293d; */
-  background: #1d3557;
-  background-color: #1d3557;
+  background-color: #000000;
   color: #F1FAEE;
   padding: 10px 10px 0px 10px;
   display: flex;
@@ -93,6 +91,7 @@ h3 {
   min-width: 300px;
   max-width: 800px;
   margin-top: 20px;
+  color: aliceblue;
 }
 
 .space-above {
@@ -117,7 +116,7 @@ h3 {
   display: flex;
   justify-content: center;
   /* background: #13293d; */
-  background: #1d3557;
+  background: #000000;
   color: #F1FAEE;
 }
 @media only screen and (min-width: 950px) {
