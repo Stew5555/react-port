@@ -10,7 +10,7 @@ export default function Project(props) {
                 <p className="space-above"><a className="project-link" href={props.project} alt={props.projectAlt}><b>{props.projectTitle}</b></a></p>
             </div>
             <div>
-                
+            <p className="space-above"><a href={props.gitHubRepo} title={props.gitHubAlt}><img className="git" src={gitlogo} alt="Link to GitHub account" width="30"></img></a></p>
             </div>
                  <p className="space-below">{props.description}
                  </p>
