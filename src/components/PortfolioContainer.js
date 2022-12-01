@@ -4,23 +4,23 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('About');
 
-    const renderPage = () => {
-        if (currentPage === 'About') {
-          return <About />;
-        }
-        if (currentPage === 'Portfolio') {
-          return <Portfolio />;
-        }
-      };
-      const handlePageChange = (page) => setCurrentPage(page);
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+  };
+  const handlePageChange = (page) => setCurrentPage(page);
 
-      return (
-        <div>
-          <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-          {renderPage()}
-          
-        </div>
-      );
+  return (
+    <div>
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+
+    </div>
+  );
 }
