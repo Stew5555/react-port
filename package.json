@@ -2,6 +2,9 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": false,
+  "engines": {
+    "node": "v16.16.0"
+  },
   "homepage": "https://stew5555.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
